@@ -1,0 +1,24 @@
+name: xai-svhn
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch=2.1.0
+  - torchvision=0.16.0
+  - torchaudio=2.1.0
+  - pytorch-cuda=11.8
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - pandas
+  - seaborn
+  - jupyter
+  - ipykernel
+  - tqdm
+  - pip
+  - pip:
+    - captum
